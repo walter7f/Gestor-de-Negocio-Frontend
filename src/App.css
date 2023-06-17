@@ -1,0 +1,123 @@
+.App{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 80vw;
+}
+.AppHeader{
+
+    background-color: rgb(100, 94, 94);
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px 4px 12px;
+    border-bottom: 1px solid rgba(244, 229, 229, 0.15);
+}
+
+
+
+.SideMenuAndPageContent{
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: rgba(0, 0, 0, 0.05) ;
+}
+.SideMenu{
+    background-color: rgb(247, 215, 176);
+    height: 100%;
+}
+.SideMenuVertical{
+    height: 100%;
+}
+.PageContent{
+    padding-left: 12px;
+}
+
+/* de la otra app
+*/
+.navar{
+    display: flex;
+  height: 8vh;
+  justify-content: space-around;
+  background: rgb(11, 64, 74);
+  opacity: .5;
+  color: #ffff;
+  font-size: 40px;
+  }
+  
+  
+  .fondo{
+    width:100vw ;
+    height: 100vh;
+  background-image: url(/src/img/guate.jpg);
+  background-position: center center;
+  background-size: cover;
+  filter: contrast(130%);
+  
+  }
+  .posiciones{
+    display: flex;
+  }
+  
+  .slogan{
+    display: block;
+    width: 35rem;
+    height: 15rem;
+    margin-top: 23rem;
+    margin-left: 9rem;
+    color: white;
+    font-size: 30px;
+  text-align: left;
+  }
+  .info{
+  
+    margin-top: 1rem;
+  }
+  .cont_log{
+  
+    background-color:rgba(255, 255, 255, 0.2);
+    width: 30rem;
+    height: 30rem;
+    margin-left: 15rem;
+    margin-top: 5rem;
+    border-radius: 1cm;
+    
+  }
+  .inicio_cont{
+    display: flex;
+  
+  }
+  .nabvar{
+    background-color: black;
+    width: 20vw;
+    height: 100vh;
+    color: white;
+    font-size: 15px;
+  }
+  .nabvar_cont{
+    background-color: lightsteelblue;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .perfil{
+    background-color: aqua;
+    width: 20vh;
+    height: 20vh;
+    display: flex;
+    border-radius: 50%;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    font-size: 30px;
+    margin-left: 2.5rem;
+    margin-top: 25px;
+  }
+  .items_nav{
+    padding-left: 10px;
+    padding-top: 30px;
+  }
+  .linksNav{
+    display:table-row;
+  }
